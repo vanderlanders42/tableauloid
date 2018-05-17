@@ -1,0 +1,147 @@
+/*Tableauloïd - styles.css*/
+/*Contient tout le CSS du PROJET.*/
+
+body {
+	background: url("./IMG/background2.png");
+	font-family: Ubuntu;
+	margin: 0px;
+}
+
+
+footer {
+	font-size: 16px;
+	border-top: 1px solid #16264a;
+	border-right: 1px solid #16264a;
+	background: #BBBBBB;
+	position: absolute;
+	bottom: 0px;
+	margin-left: 200px; /* Corrige la position pour le .menu */
+    width: 42%;
+    overflow: auto; /* Supprime le scroll */
+}
+
+table {
+    border-collapse: collapse; /* Bordure en une ligne */
+    color: #CCCCCC;
+	position: absolute;
+	table-layout: fixed;
+	top: 42px;
+	margin-left: 242px; /* Corrige la position pour le .menu */
+}
+
+table, th, td {
+	border: 2px solid white;
+}
+
+td{
+	width: 60px;
+	height: 60px;
+}
+
+.menu {
+    height: 100%; /* Pleine hauteur */
+    width: 200px; /* Largeur */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #CCCCCC;
+    overflow-x: hidden; /* Supprime le scroll */
+    padding-top: 20px;
+	border-right: 1px solid #16264a
+}
+
+.menu2 {
+    height: 100%; /* Pleine hauteur */
+    width: 100px; /* Largeur */
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #CCCCCC;
+    overflow-x: hidden; /* Supprime le scroll */
+    padding-top: 20px;
+	border-right: 1px solid #16264a
+}
+
+#sub-menu {
+	margin: 4px;
+	background-color: #DDDDDD;
+	text-align: center;
+	font-weight: bold;
+}
+
+#desc {
+	text-align: center;
+	margin: 4px;
+	background-color: #DDDDDD;
+}
+
+#com {
+	text-align: center;
+	margin: 4px;
+	background-color: #FFFFDD;
+}
+
+#links {
+	margin-left: 4px; 
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+#links:hover {
+    color: #f1f1f1;
+}
+
+#TitlesCredits {
+	color: #FFFFFF;
+	font-size: 25px;
+	text-decoration: underline;
+}
+
+#binput {
+	margin:auto;
+	display:block;
+}
+
+#binput_meh {
+	margin:auto;
+	display:block;
+}
+
+#tipses{
+    position: fixed;
+    bottom: 0;
+    left: 140px;
+}
+
+#Credits {
+	margin-top: 2%;
+	margin-left: 100px; /* Corrige la position pour le .menu2 */
+	text-align: center;
+	border: 4px ridge #0000AA;
+}
+
+#rule {
+	color: #FF0000;
+	font-size: 40px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+#rule1 {
+	color: #FFFFFF;
+	font-size: 24px;
+	text-align: center;
+}
+
+#witness {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+@font-face {
+    font-family: Ubuntu;
+    src: url("./ALT/Ubuntu.ttf");
+}

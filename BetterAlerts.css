@@ -1,0 +1,27 @@
+/*Tableauloïd - BetterAlerts.css*/
+/*Contient tout le CSS de BetterAlerts.*/
+
+#alertBox {
+	position: absolute;
+	top: 40%;
+	bottom: 60%;
+	left: 40%;
+	width: 20%;
+	height: 10%;
+	background-color: rgba(0, 0, 150, .2);
+	border-radius: 10px;
+	padding: 10px;
+	z-index: 2;
+
+	text-align: center;
+	color: white;
+}
+
+#alertClose {
+	position: absolute;
+	right: 0;
+	top: 0;
+	background-color: rgba(50, 100, 100, .7);
+	width: 100%;
+	height: 100%;
+}
